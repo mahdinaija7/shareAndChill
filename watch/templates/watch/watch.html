@@ -1,20 +1,23 @@
-{% load static %}
 <!DOCTYPE html>
 <html>
     <head>
         <title>Watch</title>
         <meta charset="UTF-8">
-        <link rel="stylesheet" href="{% static 'css/watch.css' %}">
+        <link rel="stylesheet" href="watch.css">
     </head>
     <body>
-        <div class="welcome">
-            <h1>Hey there Enter your name</h1>
-            <input type="text" placeholder="your Name" size="15">
-            <input type="button" value="Enter">
-        </div>
-        <div class="joinedNames">
-            test
-        </div>
+		<div class="parent">
+			<div class="welcome">
+				<h1>Hey there Enter your name</h1>
+				<input type="text" placeholder="your Name" size="15">
+				<input type="button" value="Enter">
+			</div>
+			<div class="verticalLine"></div>
+			<div class="joinedNames">
+			<h1> Names:</h1> <br>
+				<p>test</p>
+			</div>
+		</div>
     </body>
 </html>
 

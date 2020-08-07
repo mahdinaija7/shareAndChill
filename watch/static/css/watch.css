@@ -1,9 +1,30 @@
 body {
   display: table;
   height: 100%;
-  margin: 0;
-  padding: 0;
+  padding: 10;
   width: 100%;
   background-color: coral;
+}
+.welcome{
+	float:left;
+}
+.parent{
+	display:flex;
+
+}
+.joinedNames{
+	padding-left:10px;
+	float:right;
+	font-size:20px;
+	margin-left:auto;
+	margin-right:20%;
+}
+.verticalLine {
+  position: absolute;
+  background-color: black;
+  width: 6px;
+  top: 10px;
+  bottom: 0px;
+  left: 50%;
 }
 
