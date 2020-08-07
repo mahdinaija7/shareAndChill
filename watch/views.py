@@ -6,3 +6,8 @@ from django.http import HttpResponse
 
 def home(request):
     return render(request,'watch/watch.html')
+
+def room(request, room_name):
+    return render(request, 'watch/room.html', {
+        'room_name': room_name
+    })
